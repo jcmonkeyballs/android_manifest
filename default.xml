@@ -5,6 +5,8 @@
            fetch="https://android-review.googlesource.com/" />
   <remote name="rascarlo"
            fetch="git://github.com/rascarlo/" /> 
+  <remote name="corwin42"
+           fetch="git://github.com/corwin42/" /> 
   <remote name="CyanogenMod"
            fetch="git://github.com/CyanogenMod/" />
   <default revision="refs/tags/android-4.3.1_r1"
@@ -28,6 +30,8 @@
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" />
+  <project path="device/asus/flo" name="device/asus/flo" groups="device,flo" />
+  <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" />
   <project path="device/asus/grouper" name="device/asus/grouper" groups="device,grouper" revision="refs/tags/android-4.3_r2.3" />
   <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device,grouper" />
   <project path="device/common" name="device/common" />
@@ -385,9 +389,9 @@
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-  <project path="vendor/asus" name="android_vendor_asus" remote="rascarlo" revision="jb-ras-mr2.0" />
   <project path="vendor/lge" name="android_vendor_lge" remote="rascarlo" revision="jb-ras-mr2.0" />
-  <project path="vendor/rascarlo" name="android_vendor_rascarlo" remote="rascarlo" revision="jb-ras-mr2.0" />
+  <project path="vendor/asus" name="android_vendor_asus" remote="corwin42" revision="jb-ras-cor1.0" />
+  <project path="vendor/rascarlo" name="android_vendor_rascarlo" remote="corwin42" revision="jb-ras-cor1.0" />
   <project path="vendor/samsung" name="android_vendor_samsung" remote="rascarlo" revision="jb-ras-mr2.0" />
 
 </manifest>
