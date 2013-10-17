@@ -1,7 +1,11 @@
-repo init -u https://github.com/rascarlo/android_manifest.git -b jb-ras-mr2.0
+This is a Android manifest forked from rascarlo mainly modified to build rasbeanjelly ROM for flo (Nexus7 2013).
 
-i am [@rascarlo](https://twitter.com/rascarlo) on Twitter
+All credits and many thanks go to rascarlo!
 
-flashable builds for grouper, maguro, mako and manta can be found on http://fitsnugly.euroskank.com/?rom=rasbeanjelly
+If you want to build rasbeanjelly for flo you can init the repo with the following command: 
 
-<img src="https://raw.github.com/rascarlo/android_manifest/jb-ras-mr2.0/LionOfJudah.png">
+repo init -u https://github.com/corwin42/android_manifest.git -b jb-ras-cor1.0
+
+i am [@corwin42](https://twitter.com/corwin42) on Twitter
+
+<img src="https://raw.github.com/corwin42/android_manifest/jb-ras-cor1.0/LionOfJudah.png">
