@@ -1,8 +1,8 @@
-This is a Android manifest forked from rascarlo mainly modified to build rasbeanjelly ROM for flo (Nexus7 2013).
+This is a Android manifest forked from rascarlo mainly modified to build rastakat ROM for flo (Nexus7 2013).
 
 All credits and many thanks go to rascarlo!
 
-If you want to build rasbeanjelly for flo you can init the repo with the following command: 
+If you want to build rastakat for flo you can init the repo with the following command: 
 
 repo init -u https://github.com/corwin42/android_manifest.git -b kk-rasc-mr1
 
