@@ -9,11 +9,11 @@
            fetch="git://github.com/corwin42/" /> 
   <remote name="CyanogenMod"
            fetch="git://github.com/CyanogenMod/" />
-  <default revision="refs/tags/android-4.4.2_r2"
+  <default revision="refs/tags/android-4.4.4_r1"
            remote="aosp"
            sync-j="4" />
 
-<project path="build" name="android_build" groups="pdk" remote="rascarlo" revision="kk-ras-mr1.2_r2" >
+<project path="build" name="android_build" groups="pdk" remote="rascarlo" revision="kk-ras-mr4_r1" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="lazyAll.sh" dest="lazyAll.sh" />
     <copyfile src="lazyClobber.sh" dest="lazyClobber.sh" />
@@ -441,8 +441,8 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="vendor/asus" name="android_vendor_asus" remote="corwin42" revision="kk-rasc-mr1.2_r2" />
   <project path="vendor/lge" name="android_vendor_lge" remote="rascarlo" revision="kk-ras-mr1.2_r2" />
-  <project path="vendor/rascarlo" name="android_vendor_rascarlo" remote="rascarlo" revision="kk-ras-mr1.2_r2" />
-  <project path="vendor/corwin42" name="android_vendor_corwin42" remote="corwin42" revision="kk-rasc-mr1.2_r2" />
-  <project path="vendor/samsung" name="android_vendor_samsung" remote="rascarlo" revision="kk-ras-mr1.2_r2" />
+  <project path="vendor/rascarlo" name="android_vendor_rascarlo" remote="rascarlo" revision="kk-ras-mr4_r1" />
+  <project path="vendor/corwin42" name="android_vendor_corwin42" remote="corwin42" revision="kk-ras-mr4_r1" />
+  <project path="vendor/samsung" name="android_vendor_samsung" remote="rascarlo" revision="kk-ras-mr4_r1" />
 
 </manifest>
