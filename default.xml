@@ -441,10 +441,10 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-  <project path="vendor/asus" name="android_vendor_asus" remote="corwin42" revision="kk-rasc-mr1.2_r2" />
-  <project path="vendor/lge" name="android_vendor_lge" remote="rascarlo" revision="kk-ras-mr1.2_r2" />
+  <project path="vendor/asus" name="android_vendor_asus" remote="jcmonkeyballs" revision="kk-rasc-mr4_r1" />
+  <project path="vendor/lge" name="android_vendor_lge" remote="rascarlo" revision="kk-ras-mr4_r1" />
   <project path="vendor/rascarlo" name="android_vendor_rascarlo" remote="rascarlo" revision="kk-ras-mr4_r1" />
-  <project path="vendor/corwin42" name="android_vendor_corwin42" remote="corwin42" revision="kk-ras-mr4_r1" />
+  <project path="vendor/corwin42" name="android_vendor_jcm" remote="jcmonkeyballs" revision="kk-ras-mr4_r1" />
   <project path="vendor/samsung" name="android_vendor_samsung" remote="rascarlo" revision="kk-ras-mr4_r1" />
 
 </manifest>
