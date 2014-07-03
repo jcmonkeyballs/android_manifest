@@ -1,11 +1,11 @@
-This is a Android manifest forked from rascarlo mainly modified to build rastakat ROM for flo (Nexus7 2013).
+This is a Android manifest forked from rascarlo and corwin42 modified to build rastakat ROM for flo (Nexus7 2013).
 
-All credits and many thanks go to rascarlo!
+All credits and many thanks go to rascarlo and corwin42!
 
 If you want to build rastakat for flo you can init the repo with the following command: 
 
-repo init -u https://github.com/corwin42/android_manifest.git -b kk-rasc-mr1.2
+repo init -u https://github.com/jcmonkeyballs/android_manifest.git -b kk-ras-mr4_r1
 
-i am [@corwin42](https://twitter.com/corwin42) on Twitter
+
 
 <img src="https://raw.github.com/corwin42/android_manifest/jb-ras-cor1.0/LionOfJudah.png">
