@@ -9,6 +9,8 @@
            fetch="git://github.com/corwin42/" /> 
   <remote name="CyanogenMod"
            fetch="git://github.com/CyanogenMod/" />
+  <remote name="jcmonkeyballs"
+           fetch="git://github.com/jcmonkeyballs/" />
   <default revision="refs/tags/android-4.4.4_r1"
            remote="aosp"
            sync-j="4" />
